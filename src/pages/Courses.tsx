@@ -19,9 +19,6 @@ const Courses = () => {
 
   const filteredCourses = useFilteredCourses(courses, activeTheme, defaultTheme);
 
-	console.log(123);
-	
-
   // Error message render
   if (error)
     return (
